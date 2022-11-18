@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class RestController {
 
   @PostMapping("/cars")
-  public void addCar() {
+  public void addCar(Car car) {
 
   }
 
